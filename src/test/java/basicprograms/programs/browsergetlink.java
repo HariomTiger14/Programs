@@ -32,7 +32,7 @@ public class browsergetlink {
 		
 		List<WebElement> allElements = driver.findElements(By.xpath("//footer/div/div/div[3]/ul/li/a"));
 		String secondlinktext = allElements.get(1).getText();
-		System.out.println(secondlinktext);
+		System.out.println("The secong link text is: " + secondlinktext);
 		
 		if (secondlinktext.contentEquals("Contracts"))
 		{
